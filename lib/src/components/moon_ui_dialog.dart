@@ -19,7 +19,7 @@ class MoonDialog {
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context),
-            child: Text('Cancel', style: MoonTextStyles.bodyMedium),
+            child: const Text('Cancel', style: MoonTextStyles.bodyMedium),
           ),
           ElevatedButton(
             onPressed: () {

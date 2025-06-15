@@ -24,7 +24,7 @@ class MoonTable extends StatelessWidget {
     return SingleChildScrollView(
       scrollDirection: Axis.horizontal,
       child: DataTable(
-        headingRowColor: MaterialStateProperty.all(MoonColors.surface),
+        headingRowColor: WidgetStateProperty.all(MoonColors.surface),
         headingTextStyle:
             MoonTextStyles.bodyMedium.copyWith(fontWeight: FontWeight.w600),
         dataTextStyle: MoonTextStyles.bodySmall,

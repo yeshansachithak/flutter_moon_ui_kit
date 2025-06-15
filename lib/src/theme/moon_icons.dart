@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class MoonIcons {
   static const IconData arrowRight = Icons.arrow_forward;

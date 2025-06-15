@@ -59,11 +59,11 @@ class MoonInputField extends StatelessWidget {
             ),
             focusedBorder: OutlineInputBorder(
               borderRadius: BorderRadius.circular(borderRadius),
-              borderSide: BorderSide(color: MoonColors.primary),
+              borderSide: const BorderSide(color: MoonColors.primary),
             ),
             errorBorder: OutlineInputBorder(
               borderRadius: BorderRadius.circular(borderRadius),
-              borderSide: BorderSide(color: MoonColors.error),
+              borderSide: const BorderSide(color: MoonColors.error),
             ),
           ),
         ),
