@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import '../../theme/moon_colors.dart';
 import '../../theme/moon_text_styles.dart';
 
 class MoonTagInput extends StatefulWidget {

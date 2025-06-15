@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import '../theme/moon_colors.dart';
 import '../theme/moon_theme_extension.dart';
 
 class MoonCard extends StatelessWidget {
