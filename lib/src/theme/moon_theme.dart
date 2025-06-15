@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'moon_colors.dart';
 import 'moon_text_styles.dart';
+import 'moon_theme_extension.dart';
 
 class MoonTheme {
   static final ThemeData light = ThemeData(
@@ -10,14 +11,29 @@ class MoonTheme {
     textTheme: const TextTheme(
       titleLarge: MoonTextStyles.titleLarge,
       titleMedium: MoonTextStyles.titleMedium,
+      titleSmall: MoonTextStyles.titleSmall,
+      bodyLarge: MoonTextStyles.bodyLarge,
       bodyMedium: MoonTextStyles.bodyMedium,
+      bodySmall: MoonTextStyles.bodySmall,
+      labelLarge: MoonTextStyles.labelLarge,
+      labelMedium: MoonTextStyles.labelMedium,
       labelSmall: MoonTextStyles.labelSmall,
     ),
-    colorScheme: ColorScheme.light(
+    colorScheme: const ColorScheme.light(
       primary: MoonColors.primary,
+      secondary: MoonColors.secondary,
+      background: MoonColors.background,
       surface: MoonColors.surface,
       error: MoonColors.error,
+      onPrimary: Colors.white,
+      onSecondary: Colors.white,
+      onBackground: MoonColors.text,
+      onSurface: MoonColors.text,
+      onError: Colors.white,
     ),
+    extensions: const [
+      MoonThemeExtension.light,
+    ],
   );
 
   static final ThemeData dark = ThemeData(
@@ -27,13 +43,28 @@ class MoonTheme {
     textTheme: const TextTheme(
       titleLarge: MoonTextStyles.titleLarge,
       titleMedium: MoonTextStyles.titleMedium,
+      titleSmall: MoonTextStyles.titleSmall,
+      bodyLarge: MoonTextStyles.bodyLarge,
       bodyMedium: MoonTextStyles.bodyMedium,
+      bodySmall: MoonTextStyles.bodySmall,
+      labelLarge: MoonTextStyles.labelLarge,
+      labelMedium: MoonTextStyles.labelMedium,
       labelSmall: MoonTextStyles.labelSmall,
     ),
-    colorScheme: ColorScheme.dark(
+    colorScheme: const ColorScheme.dark(
       primary: MoonColors.primary,
+      secondary: MoonColors.secondary,
+      background: Colors.black,
       surface: Colors.grey,
       error: MoonColors.error,
+      onPrimary: Colors.white,
+      onSecondary: Colors.white,
+      onBackground: Colors.white,
+      onSurface: Colors.white,
+      onError: Colors.white,
     ),
+    extensions: const [
+      MoonThemeExtension.dark,
+    ],
   );
 }

@@ -16,6 +16,8 @@ class MoonTabs extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+
     return Row(
       children: tabs.asMap().entries.map((entry) {
         final index = entry.key;
@@ -28,14 +30,20 @@ class MoonTabs extends StatelessWidget {
             margin: const EdgeInsets.only(right: 8),
             padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
             decoration: BoxDecoration(
-              color: isActive ? MoonColors.primary.withOpacity(0.1) : MoonColors.surface,
+              color: isActive
+                  ? theme.colorScheme.primary.withOpacity(0.1)
+                  : theme.colorScheme.surface,
               borderRadius: BorderRadius.circular(8),
-              border: Border.all(color: isActive ? MoonColors.primary : MoonColors.border),
+              border: Border.all(
+                color: isActive ? theme.colorScheme.primary : MoonColors.border,
+              ),
             ),
             child: Text(
               label,
               style: MoonTextStyles.bodyMedium.copyWith(
-                color: isActive ? MoonColors.primary : MoonColors.text,
+                color: isActive
+                    ? theme.colorScheme.primary
+                    : theme.colorScheme.onSurface,
                 fontWeight: isActive ? FontWeight.w600 : FontWeight.normal,
               ),
             ),
