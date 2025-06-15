@@ -1,6 +1,3 @@
----
-
-````markdown
 # flutter_moon_ui_kit 🌙
 
 A modern, elegant, and scalable **Flutter UI Kit** inspired by the Moon design system.  
@@ -39,7 +36,7 @@ dependencies:
 
 ### 2. Import & Use
 
-```dart
+```
 import 'package:flutter_moon_ui_kit/flutter_moon_ui_kit.dart';
 
 MoonButton(
@@ -94,7 +91,3 @@ Inspired by [Moon Design System](https://moon.io).
 
 > Star this repo if you find it useful 💫
 > Built with ❤️ for the Flutter community.
-
-```
-
----
