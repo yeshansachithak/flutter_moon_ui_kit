@@ -1,7 +1,8 @@
 # flutter_moon_ui_kit 🌙
 
 A modern, elegant, and scalable **Flutter UI Kit** inspired by the Moon design system.  
-Built for **mobile**, **web**, and **desktop** using clean architecture, responsive layouts, and full theming support.
+Built for **mobile**, **web**, and **desktop** using clean architecture, responsive layouts, and
+full theming support.
 
 ---
 
@@ -100,7 +101,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 🙌 Author
 
-Maintained by [Yeshan Perera](https://github.com/yeshansachithak).
+Maintained
+by [Yeshan Perera](https://github.com/yeshansachithak) • [yeshanperera.com](https://yeshanperera.com)
 
 Inspired by [Moon Design System](https://moon.io).
 
