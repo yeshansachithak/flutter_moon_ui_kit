@@ -1,15 +1,16 @@
 # flutter_moon_ui_kit 🌙
 
 A modern, elegant, and scalable **Flutter UI Kit** inspired by the Moon design system.  
-Built for **mobile**, **web**, and **desktop** using clean architecture, responsive layouts, and theming support.
+Built for **mobile**, **web**, and **desktop** using clean architecture, responsive layouts, and full theming support.
 
 ---
 
 ## ✨ Features
 
-- 🧩 Clean, reusable UI components
-- 🎨 Light & dark theme support
+- 🧩 Dozens of clean, reusable UI components
+- 🎨 Light & dark theme support with extendable tokens
 - 📱 Responsive layouts (PWA + mobile + desktop)
+- 🧱 Consistent design system structure
 - 💡 Built with Flutter 3.22+ and Material 3
 - 🔥 Easily extendable for real apps or design systems
 
@@ -23,7 +24,7 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  flutter_moon_ui_kit: ^0.1.0
+  flutter_moon_ui_kit: ^0.0.2
 ````
 
 Or from local path:
@@ -51,16 +52,32 @@ MoonTag(label: "Design");
 
 ## 🧱 Components Included
 
-| Category    | Components                                  |
-|-------------|---------------------------------------------|
-| Buttons     | `MoonButton`                                |
-| Tags/Labels | `MoonTag`                                   |
-| Navigation  | `MoonTabs`                                  |
-| Cards       | `MoonCard`                                  |
-| Feedback    | `MoonToast` (coming soon: modal, alert)     |
-| Theme       | `MoonTheme`, `MoonColors`, `MoonTextStyles` |
+| Category   | Components                                                                  |
+|------------|-----------------------------------------------------------------------------|
+| Buttons    | `MoonButton`, `MoonIconButton`                                              |
+| Inputs     | `MoonInputField`, `MoonPasswordField`, `MoonTextArea`, `MoonCodeInputField` |
+| Toggles    | `MoonCheckbox`, `MoonRadioButton`, `MoonSwitch`                             |
+| Tags       | `MoonTag`, `MoonTagInput`                                                   |
+| Navigation | `MoonTabs`, `MoonSideNav`, `MoonBottomNavigationBar`, `MoonBreadcrumbs`     |
+| Feedback   | `MoonToast`, `MoonSnackbar`, `MoonAlert`, `MoonTooltip`, `MoonEmptyState`   |
+| Display    | `MoonCard`, `MoonImage`, `MoonAvatar`, `MoonCarousel`, `MoonSkeleton`       |
+| Forms      | `MoonDatePicker`, `MoonFileUploader`, `MoonRatingStars`                     |
+| Layout     | `MoonDivider`, `MoonStepperHorizontal`, `MoonStepperVertical`, `MoonDialog` |
+| Theme      | `MoonTheme`, `MoonColors`, `MoonTextStyles`, `MoonSpacing`, `MoonIcons`     |
+| Data       | `MoonTable`                                                                 |
 
-More coming soon: Inputs, Sidebar, Alerts, Modals, and Layouts...
+> ✅ All components are responsive and support light/dark modes.
+
+---
+
+## 📦 Example App
+
+Explore the full component catalog in the [example app](example/) included in this repo.
+
+```bash
+cd example
+flutter run -d chrome
+```
 
 ---
 
@@ -83,11 +100,10 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 🙌 Author
 
-Maintained by [Yeshan Perera](https://github.com/yeshanperera).
+Maintained by [Yeshan Perera](https://github.com/yeshansachithak).
 
 Inspired by [Moon Design System](https://moon.io).
 
 ---
 
-> Star this repo if you find it useful 💫
-> Built with ❤️ for the Flutter community.
+> 🌟 Star this repo if you find it helpful — built with ❤️ for the Flutter community.

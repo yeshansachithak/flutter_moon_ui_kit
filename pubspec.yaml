@@ -1,6 +1,6 @@
 name: flutter_moon_ui_kit
-description: "A modern, elegant, and reusable Moon-inspired UI Kit for Flutter. Built for web, mobile, and desktop with theme support."
-version: 0.0.1
+description: "A modern, elegant, and scalable **Flutter UI Kit** inspired by the Moon design system. Built for **mobile**, **web**, and **desktop** using clean architecture, responsive layouts, and full theming support."
+version: 0.0.2
 homepage: https://github.com/yeshansachithak/flutter_moon_ui_kit
 repository: https://github.com/yeshansachithak/flutter_moon_ui_kit
 issue_tracker: https://github.com/yeshansachithak/flutter_moon_ui_kit/issues
