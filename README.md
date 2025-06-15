@@ -1,39 +1,100 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+---
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+````markdown
+# flutter_moon_ui_kit 🌙
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+A modern, elegant, and scalable **Flutter UI Kit** inspired by the Moon design system.  
+Built for **mobile**, **web**, and **desktop** using clean architecture, responsive layouts, and theming support.
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+---
 
-## Features
+## ✨ Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- 🧩 Clean, reusable UI components
+- 🎨 Light & dark theme support
+- 📱 Responsive layouts (PWA + mobile + desktop)
+- 💡 Built with Flutter 3.22+ and Material 3
+- 🔥 Easily extendable for real apps or design systems
 
-## Getting started
+---
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+## 🚀 Getting Started
 
-## Usage
+### 1. Install
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+Add to your `pubspec.yaml`:
 
-```dart
-const like = 'sample';
+```yaml
+dependencies:
+  flutter_moon_ui_kit: ^0.1.0
+````
+
+Or from local path:
+
+```yaml
+dependencies:
+  flutter_moon_ui_kit:
+    path: ../flutter_moon_ui_kit
 ```
 
-## Additional information
+### 2. Import & Use
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+```dart
+import 'package:flutter_moon_ui_kit/flutter_moon_ui_kit.dart';
+
+MoonButton(
+  label: "Click Me",
+  onPressed: () {},
+);
+
+MoonTag(label: "Design");
+```
+
+---
+
+## 🧱 Components Included
+
+| Category    | Components                                  |
+|-------------|---------------------------------------------|
+| Buttons     | `MoonButton`                                |
+| Tags/Labels | `MoonTag`                                   |
+| Navigation  | `MoonTabs`                                  |
+| Cards       | `MoonCard`                                  |
+| Feedback    | `MoonToast` (coming soon: modal, alert)     |
+| Theme       | `MoonTheme`, `MoonColors`, `MoonTextStyles` |
+
+More coming soon: Inputs, Sidebar, Alerts, Modals, and Layouts...
+
+---
+
+## 🧑‍💻 Contributing
+
+We welcome contributions!
+
+1. Fork the repo
+2. Create your feature branch (`git checkout -b feature/YourComponent`)
+3. Commit your changes
+4. Push and create a PR
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🙌 Author
+
+Maintained by [Yeshan Perera](https://github.com/yeshanperera).
+
+Inspired by [Moon Design System](https://moon.io).
+
+---
+
+> Star this repo if you find it useful 💫
+> Built with ❤️ for the Flutter community.
+
+```
+
+---
