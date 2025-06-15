@@ -1,0 +1,21 @@
+name: flutter_moon_ui_kit_example
+description: Example app using flutter_moon_ui_kit
+publish_to: "none"
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_moon_ui_kit:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
